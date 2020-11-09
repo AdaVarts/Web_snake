@@ -1,0 +1,37 @@
+{
+    "tag": "div",
+    "id":  "div",
+    "innerTags": [
+        {
+            "tag": "table",
+            "id":"t",
+            "style":"display:none;",
+            "innerText":" "
+        },
+        {
+            "tag" : "button",
+            "id":"btn_show",
+            "innerText" : "Show all sessions"
+        },
+        {
+            "tag" : "input",
+            "type":"file",
+            "id" : "file"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_import",
+            "innerText" : "Import data of users"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_export",
+            "innerText" : "Export data of users"
+        },
+        {
+            "tag" : "script",
+            "type":"text/javascript",
+            "src":"javascripts/client.js"
+        }
+    ]
+}

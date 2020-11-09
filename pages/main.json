@@ -1,0 +1,68 @@
+{
+    "tag": "div",
+    "id":  "div",
+    "innerTags": [
+        {
+            "tag" : "button",
+            "id":"btn_music",
+            "innerText" : "Start music"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_stop_music",
+            "innerText" : "Stop music"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_update_lead",
+            "innerText" : "Leaderbord"
+        },
+        {
+            "tag": "table",
+            "id":"table_leader",
+            "style":"display:none;",
+            "innerText":" "
+        },
+        {
+            "tag" : "button",
+            "id":"btn_start",
+            "innerText" : "Start"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_log",
+            "innerText" : "Log in"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_sign",
+            "innerText" : "Sign up"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_refresh",
+            "innerText" : "Show all games"
+        },
+        {
+            "tag": "table",
+            "id":"t",
+            "style":"display:none;",
+            "innerText":" "
+        },
+        {
+            "tag" : "button",
+            "id":"btn_follow",
+            "innerText" : "Follow with entered code"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_use",
+            "innerText" : "Play sb's snake"
+        },
+        {
+            "tag" : "script",
+            "type":"text/javascript",
+            "src":"javascripts/client.js"
+        }
+    ]
+}

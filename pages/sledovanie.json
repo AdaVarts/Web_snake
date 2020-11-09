@@ -1,0 +1,28 @@
+{
+    "tag": "div",
+    "id":  "div",
+    "innerTags": [
+        {
+            "tag": "input",
+            "name":"code",
+            "type":"text",
+            "id":"code",
+            "placeholder":"kod"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_follow",
+            "innerText" : "Follow with entered code"
+        },
+        {
+            "tag" : "canvas",
+            "width" : 1500,
+            "height" : 1100
+        },
+        {
+            "tag" : "script",
+            "type":"text/javascript",
+            "src":"javascripts/client-housenka_follow.js"
+        }
+    ]
+}

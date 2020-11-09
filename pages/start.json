@@ -1,0 +1,89 @@
+{
+    "tag": "div",
+    "id":  "div",
+    "innerTags": [
+        {
+            "tag": "p",
+            "id" : "kod", 
+            "innerText" : "kod: "
+        },
+        {
+            "tag": "p",
+            "id":"pin",
+            "innerText" : "pin: "
+        },
+        {
+            "tag" : "h1",
+            "innerText" : "Press anything to make available functions below"
+        },
+        {
+            "tag": "p",
+            "innerText" : "Score: ",
+            "innerTags" : [
+                {
+                    "tag": "p",
+                    "id" : "score",
+                    "innerText" : "0"
+                }
+            ]
+        },
+        {
+            "tag": "p",
+            "innerText" : "Max score: ",
+            "innerTags" : [
+                {
+                    "tag": "p",
+                    "id" : "max_score",
+                    "innerText" : "0"
+                }
+            ]
+        },
+        {
+            "tag": "p",
+            "innerText" : "Level: ",
+            "innerTags" : [
+                {
+                    "tag": "p",
+                    "id" : "level",
+                    "innerText" : "0"
+                }
+            ]
+        },
+        {
+            "tag": "p",
+            "innerText" : "Max level: ",
+            "innerTags" : [
+                {
+                    "tag": "p",
+                    "id" : "max_level",
+                    "innerText" : "0"
+                }
+            ]
+        },
+        {
+            "tag" : "input",
+            "type":"file",
+            "id" : "file"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_upload",
+            "innerText" : "Upload map"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_save",
+            "innerText" : "Save map"
+        },
+        {
+            "tag" : "canvas",
+            "width" : 1500,
+            "height" : 1100
+        },
+        {
+            "tag" : "script",
+            "type":"text/javascript",
+            "src":"javascripts/client-housenka.js"
+        }
+    ]
+}

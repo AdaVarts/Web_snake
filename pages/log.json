@@ -1,0 +1,30 @@
+{
+    "tag": "div",
+    "id":  "div",
+    "innerTags": [
+        {
+            "tag": "input",
+            "name":"nickname",
+            "type":"text",
+            "id":"nickname",
+            "placeholder":"Nickname"
+        },
+        {
+            "tag": "input",
+            "name":"password",
+            "type":"password",
+            "id":"password",
+            "placeholder":"Password"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_logIn",
+            "innerText" : "Log in"
+        },
+        {
+            "tag" : "script",
+            "type":"text/javascript",
+            "src":"javascripts/client.js"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "tag": "div",
+    "id":  "div",
+    "innerTags": [
+        {
+            "tag": "input",
+            "name":"code",
+            "type":"text",
+            "id":"code",
+            "placeholder":"kod"
+        },
+        {
+            "tag": "input",
+            "name":"pin",
+            "type":"text",
+            "id":"pin",
+            "placeholder":"pin"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_use",
+            "innerText" : "Play with this code and pin"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_left",
+            "innerText" : "Left"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_up",
+            "innerText" : " Up "
+        },
+        {
+            "tag" : "button",
+            "id":"btn_down",
+            "innerText" : "Down"
+        },
+        {
+            "tag" : "button",
+            "id":"btn_right",
+            "innerText" : "Right"
+        },
+        {
+            "tag" : "script",
+            "type":"text/javascript",
+            "src":"javascripts/use.js"
+        }
+    ]
+}
